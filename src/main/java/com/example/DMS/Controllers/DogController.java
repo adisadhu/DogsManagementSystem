@@ -23,10 +23,10 @@ public class DogController {
 	@Autowired
 	TrainerRepository trainerRepo;
 	
-//	@RequestMapping("dogHome")
-//	public String home() {
-//		return "home" ;
-//	}
+	@RequestMapping("/")
+	public String home1() {
+	return "home" ;
+	}
 
 	@RequestMapping("dogHome") 
 	public ModelAndView home() {
